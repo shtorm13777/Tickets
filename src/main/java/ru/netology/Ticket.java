@@ -37,7 +37,7 @@ public class Ticket implements Comparable<Ticket> {
         return timeTo;
     }
 
-       @Override
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;

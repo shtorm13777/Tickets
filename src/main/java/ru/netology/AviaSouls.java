@@ -23,7 +23,7 @@ public class AviaSouls {
         return tickets;
     }
 
-        public Ticket[] search(String from, String to) {
+    public Ticket[] search(String from, String to) {
         Ticket[] result = new Ticket[0];
         for (Ticket ticket : tickets) {
             if (ticket.getFrom().equals(from)) {
